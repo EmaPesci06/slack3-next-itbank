@@ -2,7 +2,7 @@ import { BoxIcons } from "./BoxIcons"
 import { BoxUl } from "./BoxUl"
 
 
-export const Footer = () => {
+export default function Footer() {
     return (
         <>
             <footer className="footer">

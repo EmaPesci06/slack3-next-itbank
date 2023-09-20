@@ -1,18 +1,18 @@
-import 'boxicons'
-import { Link } from 'react-router-dom'
+import Link from "next/link"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export const Header = () => {
+
+export default function Header() {
     return (
         <>
             <header className="header">
                 <div className="contenedor">
-                    <Link to="/">
+                    <Link href="/home">
                         <img src="/assets/logo.png" alt="logo" className="img" />
                     </Link>
                     <h1 className="encabezado">Banco Innovación Financiera</h1>
-                    <Link to="/" className="logout">
-                        <box-icon name='log-out' color='#fff'></box-icon>
-                    </Link>
+                    <Link href="/" className="logout">
+                        <FontAwesomeIcon icon="fa-solid fa-right-to-bracket" />                    </Link>
                 </div>
             </header>
         </>

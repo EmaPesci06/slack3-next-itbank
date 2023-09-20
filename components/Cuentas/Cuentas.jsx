@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+"use client"
+
+import { useState } from 'react';
 import { FormCuentas } from './FormCuentas';
 import { TableCuentas } from './TableCuentas';
 

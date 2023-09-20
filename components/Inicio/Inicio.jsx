@@ -2,7 +2,7 @@ import CardCompoenent from "./CardComponent"
 import CarouselCard from "./CarouselCard"
 import ListInicio from "./ListInicio"
 
-export const Inicio = () => {
+export default function () {
     return (
         <>
             <main className="main mainInicio">

@@ -1,4 +1,3 @@
-import 'boxicons';
 
 export const BoxIcons = () => {
     return (

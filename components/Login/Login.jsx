@@ -1,8 +1,9 @@
-import React, { useState } from "react";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+'use client'
+
+import { useState } from "react";
 
 export const Login = () => {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const [values, setValues] = useState({
         email: "",
@@ -45,7 +46,7 @@ export const Login = () => {
         }
 
         if (validateForm()) {
-            navigate("/inicio");
+            // navigate("/inicio");
         }
     };
 
