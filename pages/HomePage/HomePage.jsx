@@ -9,7 +9,7 @@ export const HomePage = () => {
         <Header></Header>
         <div className="contenedorNyM">
             <NavBar></NavBar>
-            {/* <Inicio></Inicio> */}
+            <Inicio></Inicio>
         </div>
         <Footer></Footer>
     </>

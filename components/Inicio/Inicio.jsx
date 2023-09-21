@@ -1,5 +1,5 @@
+import ContactForm from "../ContactForm/ContactForm"
 import CardCompoenent from "./CardComponent"
-import CarouselCard from "./CarouselCard"
 import ListInicio from "./ListInicio"
 
 export default function () {
@@ -9,11 +9,12 @@ export default function () {
 
                 <h2 className="title">Bienvenido a Innovacion Financiera Online Banking</h2>
 
-                <CarouselCard></CarouselCard>
 
                 <CardCompoenent></CardCompoenent>
 
                 <ListInicio></ListInicio>
+
+                <ContactForm></ContactForm>
             </main>
         </>
     )

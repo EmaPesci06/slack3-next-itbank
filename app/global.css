@@ -114,6 +114,10 @@ a {
     flex-direction: column;
 }
 
+textarea {
+    resize: none;
+}
+
 .mainLogin {
     height: 59vh;
 }
@@ -126,9 +130,25 @@ a {
 
 .cardCarousel {
     margin: 0 auto;
-    width: 650px;
     box-shadow: 5px 5px 5px #ccc;
     background-color: #fffcfc;
+}
+
+.card1 {
+    width: 20rem;
+}
+
+
+.card-img-top {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.card-text {
+    display: block;
+    width: fit-content;
+    overflow: hidden;
 }
 
 .title {
@@ -138,6 +158,7 @@ a {
 .contenedorCard {
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
     margin-top: 40px;
 }
 
@@ -255,7 +276,24 @@ a {
     transition: .5s ease-in-out;
 }
 
-.form-control {
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 20px;
+    background-color: #ccc;
+}
+
+td {
+    padding: 8px
+}
+
+.form-control,
+select {
     width: 100%;
     height: 40px;
     background: #e0dede;
@@ -385,11 +423,6 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .inputMoneda {
     width: 300px;
-}
-
-select {
-    width: 300px;
-    margin: 0 auto;
 }
 
 .containerForm {
@@ -581,6 +614,55 @@ label {
 .aIcon:hover {
     transform: scale(1.2);
     color: #ccc;
+}
+
+.containerContactGrid {
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.66);
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.66);
+}
+
+.contactTitle {
+    text-align: center;
+}
+
+.contactGrid {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 70px;
+    gap: 20px;
+    grid-template-areas:
+        "nombre apellido"
+        "textarea textarea"
+        "button button";
+}
+
+.nombre {
+    grid-area: nombre;
+}
+
+.apellido {
+    grid-area: apellido;
+}
+
+
+.textarea {
+    grid-area: textarea;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textareaContact {
+    width: 80%;
+}
+
+.button {
+    grid-area: button;
 }
 
 @media (max-width:650px) {
