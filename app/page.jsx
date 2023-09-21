@@ -1,4 +1,4 @@
-import { LoginPage } from "@/pages/LoginPage/LoginPage";
+import LoginPage from '@/pages/LoginPage/LoginPage'
 import './global.css'
 
 export default function Page() {

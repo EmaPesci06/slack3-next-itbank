@@ -47,10 +47,9 @@ a {
 
 .logout {
     display: block;
-    height: 36px;
-    width: 36px;
     color: #fff;
     transition: all .3s ease-in-out;
+    margin-right: 10px;
 }
 
 .logout:hover {

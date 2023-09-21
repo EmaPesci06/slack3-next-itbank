@@ -1,7 +1,6 @@
 import Link from "next/link"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-
+import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons"
 export default function Header() {
     return (
         <>
@@ -12,7 +11,8 @@ export default function Header() {
                     </Link>
                     <h1 className="encabezado">Banco Innovación Financiera</h1>
                     <Link href="/" className="logout">
-                        <FontAwesomeIcon icon="fa-solid fa-right-to-bracket" />                    </Link>
+                        <FontAwesomeIcon icon={faRightFromBracket} size="xl" style={{ color: "#ffffff", }} />
+                    </Link>
                 </div>
             </header>
         </>

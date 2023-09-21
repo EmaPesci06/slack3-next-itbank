@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export const Login = () => {
+export default function Login() {
     // const navigate = useNavigate();
 
     const [values, setValues] = useState({

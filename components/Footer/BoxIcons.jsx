@@ -1,19 +1,24 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faInstagram } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook } from "@fortawesome/free-brands-svg-icons"
+import { faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 
-export const BoxIcons = () => {
+export default function BoxIcons() {
     return (
         <>
             <div className="cajaIcons">
                 <a href="https://www.instagram.com" target='_blank' className="aIcon animate__pulse">
-                    <box-icon color='#ffff' type='logo' name='instagram'></box-icon>
+                    <FontAwesomeIcon icon={faInstagram} style={{ color: "#ffffff", }} />
                 </a>
                 <a href="https://www.facebook.com" target='_blank' className="aIcon">
-                    <box-icon color='#ffff' type='logo' name='facebook-circle'></box-icon>
+                    <FontAwesomeIcon icon={faFacebook} style={{ color: "#ffffff", }} />
                 </a>
                 <a href="https://www.twitter.com" target='_blank' className="aIcon">
-                    <box-icon color='#ffff' type='logo' name='twitter'></box-icon>
+                    <FontAwesomeIcon icon={faTwitter} style={{ color: "#ffffff", }} />
                 </a>
                 <a href="https://www.whatsapp.com" className="aIcon" target='_blank'>
-                    <box-icon color='#ffff' type='logo' name='whatsapp'></box-icon>
+                    <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff", }} />
                 </a>
             </div>
         </>

@@ -1,4 +1,4 @@
-import { BoxIcons } from "./BoxIcons"
+import BoxIcons from "./BoxIcons"
 import { BoxUl } from "./BoxUl"
 
 

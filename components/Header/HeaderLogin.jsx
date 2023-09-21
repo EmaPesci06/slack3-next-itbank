@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export const HeaderLogin = () => {
+export default function HeaderLogin() {
     return (
         <>
             <header className="header">

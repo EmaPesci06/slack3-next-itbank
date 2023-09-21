@@ -1,13 +1,15 @@
-import { Footer } from "../../components/Footer/Footer"
-import { HeaderLogin } from "../../components/Header/HeaderLogin"
-import { Login } from "../../components/Login/Login"
+import Footer from "@/components/Footer/Footer";
+import HeaderLogin from "@/components/Header/HeaderLogin";
+import Login from "@/components/Login/Login";
 
-export const LoginPage = () => {
+
+export default function LoginPage() {
     return (
         <>
             <HeaderLogin></HeaderLogin>
             <Login></Login>
             <Footer></Footer>
+
         </>
     )
 }
