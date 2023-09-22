@@ -1,9 +1,10 @@
+import Image from "next/image";
 
 const CardCompoenent = () => {
     return (
         <div className="contenedorCard">
             <div className="cardCarousel card1" >
-                <img src="/assets/imagen4.jpg" className="card-img-top" alt="soporte" />
+                <Image src={"/assets/imagen2.jpg"} height={200} width={100} />
                 <div className="card-body">
                     <h5 className="card-title">Soporte al Cliente</h5>
                     <p className="card-text">

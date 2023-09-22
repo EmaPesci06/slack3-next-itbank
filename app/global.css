@@ -549,6 +549,11 @@ label {
     height: 78vh;
 }
 
+.imagen {
+    width: 200px;
+    height: 200px;
+}
+
 /* PIE DE PAGINA */
 .footer {
     clear: both;

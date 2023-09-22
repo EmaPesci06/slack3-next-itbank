@@ -1,5 +1,6 @@
 'use client'
 
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function Login() {
@@ -14,6 +15,8 @@ export default function Login() {
         email: "",
         password: "",
     });
+
+    const router = useRouter()
 
     const validateForm = () => {
         let isValid = true;
@@ -46,7 +49,7 @@ export default function Login() {
         }
 
         if (validateForm()) {
-            // navigate("/inicio");
+            router.push("/home")
         }
     };
 
