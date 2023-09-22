@@ -17,6 +17,16 @@ export const Cuentas = () => {
                 <TableCuentas accounts={accounts} />
                 <FormCuentas addAccount={addAccount} />
             </div>
+
+            <ul>
+                {accounts.map((account) => (
+                    <li key={account.numeroCuenta}>
+                        <Link href={`/cuentas/${account.numeroCuenta}`}>
+                            <a>{account.numeroCuenta}</a>
+                        </Link>
+                    </li>
+                ))}
+            </ul>
         </main>
     );
 };
