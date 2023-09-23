@@ -3,8 +3,10 @@
 import { useState } from 'react';
 import { FormCuentas } from './FormCuentas';
 import { TableCuentas } from './TableCuentas';
+import { getAccounts } from '@/data/accounts';
 
 export const Cuentas = () => {
+    const fetchedAccounts = getAccounts();
     const [accounts, setAccounts] = useState([]);
 
     const addAccount = (newAccount) => {
@@ -14,7 +16,7 @@ export const Cuentas = () => {
     return (
         <main className="main">
             <div className="containerCuenta w-xl">
-                <TableCuentas accounts={accounts} />
+                <TableCuentas accounts={fetchedAccounts} />
                 <FormCuentas addAccount={addAccount} />
             </div>
 
