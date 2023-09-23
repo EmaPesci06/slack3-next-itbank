@@ -1,4 +1,4 @@
-import { Cuentas } from "../../Cuentas/Cuentas"
+import { Cuentas } from "../../Cuentas/CuentasComponent"
 import NavBar from "../../NavBar/NavBar"
 
 export const ContenedorNyMCuentas = () => {

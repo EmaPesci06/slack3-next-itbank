@@ -1,6 +1,6 @@
-import TransferPage from "@/pages/TransferPage/TransferPage";
+import { Transferencias } from "@/components/Transferencias/Transferencias"
 import "../global.css"
 
-export default function Transferencias() {
-    return <TransferPage></TransferPage>
+export default function TransferenciasPage() {
+    return <Transferencias></Transferencias>
 }

@@ -1,6 +1,6 @@
 import Conversor from "../Conversor/Conversor"
 
-export const Moneda = () => {
+export default function Moneda() {
     return (
         <>
             <main className="main moneda">

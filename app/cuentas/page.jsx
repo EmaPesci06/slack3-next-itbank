@@ -1,7 +1,6 @@
 import "../global.css"
-
-import CuentasPage from "@/pages/CuentasPage/CuentasPage";
+import CuentasComponent from "@/components/Cuentas/CuentasComponent"
 
 export default function Cuentas() {
-    return <CuentasPage></CuentasPage>
+    return <CuentasComponent></CuentasComponent>
 }

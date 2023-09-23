@@ -1,6 +1,6 @@
 import "../global.css"
-import PagosPage from "@/pages/PagosPage/PagosPage"
+import { Pagos } from "@/components/Pagos/Pagos"
 
-export default function Pagos() {
-    return <PagosPage></PagosPage>
+export default function PagosPage() {
+    return <Pagos></Pagos>
 }

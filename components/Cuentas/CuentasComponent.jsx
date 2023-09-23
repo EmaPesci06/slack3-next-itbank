@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { FormCuentas } from './FormCuentas';
 import { TableCuentas } from './TableCuentas';
 
-export const Cuentas = () => {
+export default function CuentasComponent() {
     const [accounts, setAccounts] = useState([]);
 
     const addAccount = (newAccount) => {

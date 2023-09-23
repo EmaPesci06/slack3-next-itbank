@@ -1,6 +1,6 @@
-import { HomePage } from "@/pages/HomePage/HomePage";
+import Inicio from "@/components/Inicio/Inicio"
 import "../global.css"
 
 export default function Home() {
-    return <HomePage></HomePage>
+    return <Inicio></Inicio>
 }

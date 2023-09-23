@@ -1,6 +1,6 @@
-import PrestamoPage from "@/pages/PrestamoPage/PrestamoPage";
+import { Prestamo } from "@/components/Prestamo/Prestamo"
 import "../global.css"
 
-export default function Prestamo() {
-    return <PrestamoPage></PrestamoPage>
+export default function PrestamoPage() {
+    return <Prestamo></Prestamo>
 }

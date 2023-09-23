@@ -1,6 +1,6 @@
-import MonedaPage from "@/pages/MonedaPage/MonedaPage";
+import Moneda from "@/components/Moneda/Moneda"
 import "../global.css"
 
-export default function Moneda() {
-    return <MonedaPage></MonedaPage>
+export default function MonedaPage() {
+    return <Moneda></Moneda>
 }

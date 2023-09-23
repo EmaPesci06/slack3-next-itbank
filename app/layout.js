@@ -1,5 +1,9 @@
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
+import Header from "@/components/Header/Header";
+import NavBar from "@/components/NavBar/NavBar";
+import Footer from "@/components/Footer/Footer";
+import "./global.css"
 config.autoAddCss = false
 
 export const metadata = {
@@ -13,7 +17,14 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="ico" href="/assets/favicon.ico" />
       </head>
-      <body>{children}</body>
+      <body>
+        <Header />
+        <div className="contenedorNyM">
+          <NavBar />
+          {children}
+        </div>
+        <Footer />
+      </body>
     </html>
   )
 }

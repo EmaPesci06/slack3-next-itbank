@@ -1,6 +1,6 @@
-import LoginPage from '@/pages/LoginPage/LoginPage'
 import './global.css'
+import Login from '@/components/Login/Login'
 
 export default function Page() {
-    return <LoginPage></LoginPage>
+    return <Login></Login>
 }
