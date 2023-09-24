@@ -1,16 +1,12 @@
-import { useRouteError } from "react-router-dom"
+'use client'
 
-export const Error = () => {
-    const error = useRouteError()
-    console.error(error)
-
+export default function GlobalError({ error, reset }) {
     return (
-        <div className="error-page">
-            <h2>Oops!</h2>
-            <p>La pagina a la que quieres acceder no existe</p>
-            <p>
-                <i>{error.statusText || error.message}</i>
-            </p>
-        </div>
+        <html>
+            <body>
+                <h2>Something went wrong!</h2>
+                <button onClick={() => reset()}>Try again</button>
+            </body>
+        </html>
     )
 }

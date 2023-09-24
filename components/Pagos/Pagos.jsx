@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { PaymentForm } from "./PaymentForm";
 import { PaymentGrid } from "./PaymentGrid";
+import { useRouter } from "next/navigation";
 
 export const Pagos = () => {
   const [payments, setPayments] = useState([]);
@@ -11,6 +12,8 @@ export const Pagos = () => {
     setPayments([...payments, newPayment]);
   };
 
+  const router = useRouter()
+
   return (
     <>
       <main className="main mainPago">
@@ -18,6 +21,8 @@ export const Pagos = () => {
 
         <PaymentGrid payments={payments}></PaymentGrid>
         <PaymentForm addPayment={addPayment}></PaymentForm>
+
+        <button type="button" onClick={() => router.push('/pagos/factura')}>Ver Facturas</button>
       </main>
     </>
   );
