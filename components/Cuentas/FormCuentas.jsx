@@ -51,7 +51,7 @@ export const FormCuentas = ({ addAccount }) => {
     return (
         <>
             <form id="formAccount" onSubmit={handleSubmit}>
-                <h3 className="text-center mt-3">Agregar Cuenta</h3>
+                <h3 className="text-center mt-3" style={{ marginTop: '30px' }}>Agregar Cuenta</h3>
                 <div className="mb-3">
                     <label htmlFor="numberAccount" className="form-label">Numero de Cuenta</label>
                     <input type="number" className="form-control" id="numberAccount" aria-describedby="emailHelp" value={inputNumberAccount} onChange={(e) => setInputNumberAccount(e.target.value)} />
@@ -79,7 +79,7 @@ export const FormCuentas = ({ addAccount }) => {
                     </select>
                 </div>
 
-                <button type="submit" className="btn btn-primary mt-4">Submit</button>
+                <button type="submit" className="btn btn-primary mt-4">Crear cuenta</button>
             </form>
         </>
     )

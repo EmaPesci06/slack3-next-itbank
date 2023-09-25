@@ -1,64 +1,58 @@
 {
-    "facturas": [
+    "tarjetas": [
         {
-            "id": 1,
-            "fecha": "2020-01-01",
-            "monto": 10,
-            "descripcion": "Example Description 1"
+            "id": 1234567890,
+            "numero_tarjeta": 9876543210,
+            "vencimiento": "2023-12-31",
+            "marca": "Visa"
         },
         {
-            "id": 2,
-            "fecha": "2020-02-01",
-            "monto": 15,
-            "descripcion": "Example Description 2"
+            "id": 2345678901,
+            "numero_tarjeta": 8765432109,
+            "vencimiento": "2024-06-30",
+            "marca": "Mastercard"
         },
         {
-            "id": 3,
-            "fecha": "2020-03-01",
-            "monto": 20,
-            "descripcion": "Example Description 3"
+            "id": 3456789012,
+            "numero_tarjeta": 7654321098,
+            "vencimiento": "2025-03-31",
+            "marca": "American Express"
         },
         {
-            "id": 4,
-            "fecha": "2020-04-01",
-            "monto": 25,
-            "descripcion": "Example Description 4"
+            "id": 4567890123,
+            "numero_tarjeta": 6543210987,
+            "vencimiento": "2026-09-30",
+            "marca": "Discover"
         },
         {
-            "id": 5,
-            "fecha": "2020-05-01",
-            "monto": 30,
-            "descripcion": "Example Description 5"
+            "id": 5678901234,
+            "numero_tarjeta": 5432109876,
+            "vencimiento": "2027-04-30",
+            "marca": "Visa"
         },
         {
-            "id": 6,
-            "fecha": "2020-06-01",
-            "monto": 35,
-            "descripcion": "Example Description 6"
+            "id": 6789012345,
+            "numero_tarjeta": 4321098765,
+            "vencimiento": "2028-11-30",
+            "marca": "Mastercard"
         },
         {
-            "id": 7,
-            "fecha": "2020-07-01",
-            "monto": 40,
-            "descripcion": "Example Description 7"
+            "id": 7890123456,
+            "numero_tarjeta": 3210987654,
+            "vencimiento": "2029-07-31",
+            "marca": "American Express"
         },
         {
-            "id": 8,
-            "fecha": "2020-08-01",
-            "monto": 45,
-            "descripcion": "Example Description 8"
+            "id": 8901234567,
+            "numero_tarjeta": 2109876543,
+            "vencimiento": "2030-02-28",
+            "marca": "Discover"
         },
         {
-            "id": 9,
-            "fecha": "2020-09-01",
-            "monto": 50,
-            "descripcion": "Example Description 9"
-        },
-        {
-            "id": 10,
-            "fecha": "2020-10-01",
-            "monto": 55,
-            "descripcion": "Example Description 10"
+            "id": 9012345678,
+            "numero_tarjeta": 1098765432,
+            "vencimiento": "2031-08-31",
+            "marca": "Visa"
         }
     ]
 }
